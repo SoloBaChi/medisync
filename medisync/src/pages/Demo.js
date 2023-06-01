@@ -1,14 +1,14 @@
 import { Navbar } from '../components';
 
-const Doctors = () => {
+const Demo = () => {
   return (
     <div>
-        <div className="Doctors">
+        <div className="Demo">
           <Navbar />
-          <h1>Doctors Page</h1>
+          <h1>Demo Page</h1>
         </div>
     </div>
   )
 }
 
-export default Doctors
+export default Demo

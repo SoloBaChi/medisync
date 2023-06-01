@@ -1,7 +1,6 @@
 import React from 'react';
 import './benefits.css';
 import Laptop from '../../assets/laptop.png'
-import Analyict from '../../assets/analyict.png'
 import Call from '../../assets/call.png'
 import Privacy from '../../assets/privacy.png'
 
@@ -10,10 +9,11 @@ const Benefits = () => {
     <div className='medisync__benefits'>
       <div className="medisync__benefits-text">
         <h1>
-          Improving Lives With Our Secure Data Regarding Your Health.
+          Securing records With Web3 technology.
         </h1>
         <p>
-          With Medisync you can safe your medical records, track your health issues. Share your health record with others in case of any emergency. 
+          With Medisync medical records are saved and health issues are tracked. Share your health record 
+          with a third party with your permission.
         </p>
       </div>
       
@@ -22,15 +22,7 @@ const Benefits = () => {
           <div className="medisync__benefits-tabs_tab-icon">
             <img src={Laptop} alt="Laptop" />
           </div>
-          <p>Get Your Health Records Done Electronically</p>
-          <button type='button'>Explore</button>
-        </div>
-
-        <div className="medisync__benefits-tabs_tab">
-          <div className="medisync__benefits-tabs_tab-icon">
-            <img src={Analyict} alt="Analyist" />
-          </div>
-          <p>Health Care analytics Checker</p>
+          <p>Save Your Health Records Online and Offline</p>
           <button type='button'>Explore</button>
         </div>
 
@@ -38,7 +30,7 @@ const Benefits = () => {
           <div className="medisync__benefits-tabs_tab-icon">
             <img src={Call} alt="Call" />
           </div>
-          <p>Get In Touch With Our Health Care Professional</p>
+          <p>Connect  with a  Wallet</p>
           <button type='button'>Explore</button>
         </div>
 
@@ -46,7 +38,7 @@ const Benefits = () => {
           <div className="medisync__benefits-tabs_tab-icon">
             <img src={Privacy} alt="Privacy" />
           </div>
-          <p>Your Health Record only known to you</p>
+          <p>Your Health Record protected with Blockchain security</p>
           <button type='button'>Explore</button>
         </div>
       </div>
