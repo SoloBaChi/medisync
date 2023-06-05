@@ -59,7 +59,9 @@ a {
 .medisync__joinus_input button {
     min-height: 50px;
     background: #460570;
-    border: 1px solid #CBCAC8;
+    border-left: 1px solid #CBCAC8;
+    border-top: 1px solid #CBCAC8;
+    border-bottom: 1px solid #CBCAC8;
     border-radius: 0px 5px 5px 0px;
     font-weight: 400;
     font-size: 14px;

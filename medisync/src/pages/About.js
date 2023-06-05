@@ -1,11 +1,13 @@
 import { Navbar } from '../components';
+import { Aboutus, Footer } from '../containers';
 
 const About = () => {
   return (
     <div>
         <div className="About">
           <Navbar />
-          <h1>About Page</h1>
+          <Aboutus />
+          <Footer />
         </div>
     </div>
   )

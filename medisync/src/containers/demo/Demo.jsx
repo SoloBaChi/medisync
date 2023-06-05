@@ -1,6 +1,8 @@
 import React from 'react';
 import './demo.css';
-import Frame from '../../assets/frame.jpg';
+import Frame from '../../assets/frame.png';
+
+import { Link } from 'react-router-dom';
 
 const Demo = () => {
   return (
@@ -14,7 +16,7 @@ const Demo = () => {
         symptoms, examination results and also share it with other authorized 
         wallet address despite location.It remains secure and safe with use of web3 and blockchain technology
       </p>
-      <button type='button'>Learn  About Web3</button>
+      <Link to="/web3"><button type='button'>Learn About Web3</button></Link>
     </div>
   )
 }
