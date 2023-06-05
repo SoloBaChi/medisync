@@ -5,3 +5,7 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Joinus } from './joinus/Joinus';
 export { default as Whyus } from './whyus/Whyus';
+export { default as Ourservices } from './ourservices/Ourservices';
+export { default as Aboutus } from './aboutus/Aboutus';
+export { default as Whatweb3 } from './whatweb3/Whatweb3';
+export { default as Thedemo } from './thedemo/Thedemo';

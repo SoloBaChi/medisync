@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
   <>
-  <p><Link to="/home">Home</Link></p>
-  <p><Link to="/about">About</Link></p>
-  <p><Link to="/demo">Demo</Link></p>
-  <p><Link to="/services">Services</Link></p>
+  <Link to="/home"><p>Home</p></Link>
+  <Link to="/about"><p>About</p></Link>
+  <Link to="/demo"><p>Demo</p></Link>
+  <Link to="/services"><p>Services</p></Link>
   </>
 )
 
