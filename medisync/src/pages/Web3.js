@@ -1,5 +1,4 @@
-import { Navbar } from '../components';
-import { Whatweb3, Footer } from '../containers';
+import { Navbar, Whatweb3, Footer } from '../containers';
 
 const Web3 = () => {
   return (
