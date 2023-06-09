@@ -3,13 +3,15 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => (
   <>
-  <Link to="/home"><p>Home</p></Link>
-  <Link to="/about"><p>About</p></Link>
-  <Link to="/demo"><p>Demo</p></Link>
-  <Link to="/services"><p>Services</p></Link>
+  <p><NavLink exact to="/" activeClassName="active">Home</NavLink></p>
+  {/* <p><NavLink to="/home"  activeClassName="active">Home</NavLink></p> */}
+  <p><NavLink to="/about"  activeClassName="active">About</NavLink></p>
+  <p><NavLink to="/demo"  activeClassName="active">Demo</NavLink></p>
+  <p><NavLink to="/services"  activeClassName="active">Services</NavLink></p>
   </>
 )
 
@@ -28,7 +30,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
         </div>
 
         <div className="medisync__navbar-right">
-          <button type="button">Get Started</button>
+          <Link to="/welcome"><button type="button">Get Started</button></Link>
         </div>
       </div>
       <div className="medisync__navbar-menu">
@@ -41,7 +43,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
             <div className="medisync__navbar-menu_container-links">
               <Menu />
               <div className="medisync__navbar-menu_container-links-wallet">
-                <button type="button">Get Started</button>
+                <Link to="/welcome"><button type="button">Get Started</button></Link>
               </div>
             </div>
           </div>

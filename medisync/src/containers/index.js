@@ -9,3 +9,8 @@ export { default as Ourservices } from './ourservices/Ourservices';
 export { default as Aboutus } from './aboutus/Aboutus';
 export { default as Whatweb3 } from './whatweb3/Whatweb3';
 export { default as Thedemo } from './thedemo/Thedemo';
+export { default as Feature } from './feature/Feature';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Welcomepage } from './welcomepage/Welcomepage';
+export { default as Registerpage } from './registerpage/Registerpage';
+export { default as Loginpage } from './loginpage/Loginpage';

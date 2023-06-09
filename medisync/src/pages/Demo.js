@@ -1,5 +1,4 @@
-import { Navbar } from '../components';
-import { Thedemo, Footer } from '../containers';
+import { Navbar, Thedemo, Footer } from '../containers';
 
 const Demo = () => {
   return (
