@@ -87,7 +87,7 @@ const Registerpage = () => {
     <div>
       <div className="medisync__registerpage">
       <div className="medisync__registerpage-logo">
-        <img src={Logo} alt="Logo"/>
+        <Link to="/"><img src={Logo} alt="Logo"/></Link>
       </div>
       <div className="medisync__registerpage-body">
         <div className="medisync__registerpage-body_form">
@@ -117,7 +117,7 @@ const Registerpage = () => {
               // (<span className="successful">{signupDetails.message}</span>) : 
               // (<span className="successful">{signupDetails.status}</span>)
               (signupDetails.status==="success") ?
-              (<Link to="/dashboard"><button type="submit">Go to Dashboard</button></Link>) :
+              (<Link to="/dashboard/connectwallet"><button type="submit">Connect Wallet</button></Link>) :
               (<span className="successful">{signupDetails.message}</span>)
             }
           </form>
