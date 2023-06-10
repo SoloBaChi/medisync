@@ -116,20 +116,24 @@ body {
     }
 
     .medisync__loginpage-body_form {
-        padding: 30px 80px;
+        padding: 30px 50px;
     }
 }
 
-@media screeen and (max-width: 490px) {
+@media screen and (max-width: 490px) {
     .medisync__loginpage {
-        padding: 10px;
+        padding: 50px 10px;
     }
 
     .login-form input {
-        width: 200px;
+        width: 250px;
     }
 
     .login-form button {
-        width: 200px;
+        width: 270px;
+    }
+
+    .medisync__loginpage-body_image {
+        margin-bottom: 150px;
     }
 }

@@ -21,7 +21,6 @@
 .medisync__feedback_client {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: #DADADA;
     margin: 0 200px 50px 200px;
@@ -30,7 +29,7 @@
 
 .medisync__feedback_client p {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
     text-align: center;
     color: #1B1A1A;
@@ -39,6 +38,12 @@
 
 .medisync__feedback_client-Name {
     padding-bottom: 30px;
+}
+
+.medisync__feedback_client-image img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .medisync__feedback_client-Name h1 {

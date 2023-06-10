@@ -55,7 +55,7 @@ body {
 }
 
 .register-form input {
-    width: 375px;
+    width: 340px;
     height: 35px;
     background: #F1E6F8;
     border: 2px solid #9412ED;
@@ -76,7 +76,7 @@ body {
 }
 
 .register-form button {
-    width: 395px;
+    width: 360px;
     height: 40px;
     background: #8A33C3;
     border: none;
@@ -110,6 +110,12 @@ body {
     max-width: 100%;
 }
 
+.successful {
+    color: rgb(255, 45, 45);
+    text-align: center;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 1100px) {
     .medisync__registerpage-body {
         display: flex;
@@ -124,20 +130,20 @@ body {
     }
 
     .medisync__registerpage-body_form {
-        padding: 30px 80px;
+        padding: 30px 50px;
     }
 }
 
-@media screeen and (max-width: 490px) {
+@media screen and (max-width: 490px) {
     .medisync__registerpage {
-        padding: 10px;
+        padding: 50px 10px;
     }
 
     .register-form input {
-        width: 200px;
+        width: 250px;
     }
 
     .register-form button {
-        width: 200px;
+        width: 270px;
     }
 }

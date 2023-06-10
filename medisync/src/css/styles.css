@@ -4,8 +4,6 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/* font-family: 'Poppins', sans-serif; */
-
 .app_container {
   display: flex;
   width: 100%;
@@ -283,7 +281,5 @@ select {
   top: 78%;
   z-index: 1;
 }
-
-
 
 }

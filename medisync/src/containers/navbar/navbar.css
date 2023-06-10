@@ -45,6 +45,7 @@
 }
 
 .medisync__navbar-menu_container p {
+    width: 150px;
     color: #1B1A1A;
     font-family: var(--font-family);
     font-weight: 400;
@@ -114,7 +115,7 @@
 }
 
 .medisync__navbar-menu_container-links button {
-    padding: 7px 10px;
+    padding: 7px 15px;
     font-size: 15px;
 }
 
